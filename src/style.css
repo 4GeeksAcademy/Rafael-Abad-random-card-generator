@@ -1,5 +1,55 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+html,body{
+    height:100%;
+    width:100%;
+}
+.allEncompassing{
+    background-color: green;
+    height:100vh;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.card{
+    background-color: white;
+    position:relative;
+    height:80%;
+    width:35%;
+    border-radius: 8%;
+    display:flex;
+    margin-top: 1%;
+}
+.symbolUpLeft{
+    justify-content: left;
+    width:25%;
+    height:25%;
+    position:absolute;
+    left:0;
+    top:-5%;
+    font-size: 200px;
+    color: red;
+}
+.centerDiv{
+    position:absolute;
+    right:40%;
+    top:30%;
+    height: 20%;
+    width:20%;
+}
+.number{
+    font-size: 180px;
+    justify-content: center;
+    margin-left: 5px;
+    font-family: serif;
+}
+.symbolDownRight{
+    font-size: 200px;
+    position:absolute;
+    right:0;
+    bottom:5%;
+    width:25%;
+    height:25%;
+    color: red;
 }
